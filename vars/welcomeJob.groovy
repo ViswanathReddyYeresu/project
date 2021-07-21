@@ -11,7 +11,7 @@ def call(String name = 'User') {
     }
     stage ('Deploy')  {
       echo "deploying to DEV Env "
-        deploy adapters: [tomcat9(credentialsId: '1580f923-012f-4364-9f81-4731ea30e4ef', path: '', url: 'http://18.117.254.242:8090')], contextPath: null, war: '**/*.war'
+        deploy adapters: [tomcat9(credentialsId: '1580f923-012f-4364-9f81-4731ea30e4ef', path: '', url: 'http://52.14.5.172:8090')], contextPath: null, war: '**/*.war'
     }
 }
  echo "Welcome, ${name}."
