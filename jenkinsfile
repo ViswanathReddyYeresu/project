@@ -1,0 +1,3 @@
+@Library('first-shared-lib') _
+//welcomeJob 'mytestrun'
+jenkinsSample 'https://github.com/ViswanathReddyYeresu/project.git'
